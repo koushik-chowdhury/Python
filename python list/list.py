@@ -14,3 +14,9 @@ print(tea)
 print(tea[1:1])
 tea[1:1] = ["test", "test"]
 print(tea)
+
+tea[1:3] = []
+print(tea)
+
+for tea in tea:
+    print(tea)
